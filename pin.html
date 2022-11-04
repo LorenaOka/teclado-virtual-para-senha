@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senha</title>
+    <link rel="stylesheet" href="pin.css">
+</head>
+<body>
+    <div class="fundo">
+        <h1> Digite sua senha: </h1>
+    
+    <div class="senha">
+        <p id="resultado" ></p>
+        <table>
+            <tr>
+                <td><button class="botao"onclick="insert('1')">1</button></td>
+                <td><button class="botao"onclick="insert('2')">2</button></td>
+                <td><button class="botao"onclick="insert('3')">3</button></td>
+            </tr>
+            <tr>
+                <td><button class="botao"onclick="insert('4')">4</button></td>
+                <td><button class="botao"onclick="insert('5')">5</button></td>
+                <td><button class="botao"onclick="insert('6')">6</button></td>
+            </tr>
+            <tr>
+                <td><button class="botao"onclick="insert('7')">7</button></td>
+                <td><button class="botao"onclick="insert('8')">8</button></td>
+                <td><button class="botao"onclick="insert('9')">9</button></td>
+            </tr>
+            <tr>
+                <td><button class="botao"onclick="verificar()">&#10003;</button></td>
+                <td><button class="botao"onclick="insert('0')">0</button></td>
+                <td><button class="botao"onclick="clean()"><img src="https://smiltenespiens.lv/wp-content/themes/Smilt/images/arrow-left-blue.svg" alt="" height="22px"></button></td>
+            </tr>
+        </table>
+    </div>
+
+<script src="pin.js"></script>
+</body>
+
+</html>
